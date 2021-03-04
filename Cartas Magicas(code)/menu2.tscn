@@ -26,40 +26,40 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
-margin_left = 42.0
-margin_right = 196.0
+margin_left = 46.0
+margin_right = 193.0
 margin_bottom = 134.0
 
 [node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
-margin_right = 154.0
+margin_right = 147.0
 margin_bottom = 14.0
 custom_colors/font_color_shadow = Color( 1, 0, 0, 1 )
-text = "Escolhas as Dimenções:"
+text = "Escolha as Dimenções:"
 
 [node name="Button" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 18.0
-margin_right = 154.0
+margin_right = 147.0
 margin_bottom = 38.0
 text = "3x3"
 
 [node name="Button2" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 42.0
-margin_right = 154.0
+margin_right = 147.0
 margin_bottom = 62.0
 
 [node name="Button3" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 66.0
-margin_right = 154.0
+margin_right = 147.0
 margin_bottom = 86.0
 
 [node name="Button4" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 90.0
-margin_right = 154.0
+margin_right = 147.0
 margin_bottom = 110.0
 
 [node name="Button5" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 114.0
-margin_right = 154.0
+margin_right = 147.0
 margin_bottom = 134.0
 text = "<- Back <-"
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Button" to="." method="_on_Button_pressed"]
