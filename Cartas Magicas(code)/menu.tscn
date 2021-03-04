@@ -11,11 +11,11 @@ script = ExtResource( 2 )
 position = Vector2( 404.79, 296.556 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
-margin_left = 166.998
-margin_top = 123.712
-margin_right = 260.998
-margin_bottom = 202.712
-rect_scale = Vector2( 5.06192, 4.27838 )
+margin_left = 193.937
+margin_top = 132.692
+margin_right = 287.937
+margin_bottom = 211.692
+rect_scale = Vector2( 4.30192, 4.27838 )
 __meta__ = {
 "_edit_group_": true,
 "_edit_use_anchors_": false

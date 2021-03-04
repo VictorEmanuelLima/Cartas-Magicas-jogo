@@ -16,7 +16,8 @@
 script = ExtResource( 2 )
 
 [node name="label" parent="." instance=ExtResource( 1 )]
-position = Vector2( 500, 300 )
+position = Vector2( 512.613, 300 )
+scale = Vector2( 5.14295, -2.04844 )
 
 [node name="A0" type="Sprite" parent="."]
 position = Vector2( 150, 200 )

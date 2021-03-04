@@ -11,14 +11,14 @@ __meta__ = {
 }
 
 [node name="label" parent="." instance=ExtResource( 1 )]
-position = Vector2( 33.4705, 31.4312 )
-scale = Vector2( 5.58579, -2.58262 )
+position = Vector2( -28.5092, 2.35334 )
+scale = Vector2( 5.2182, -2.10482 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
-margin_left = -224.151
-margin_top = -227.156
-margin_right = 14.8495
-margin_bottom = -93.1561
+margin_left = -285.554
+margin_top = -232.495
+margin_right = -46.5531
+margin_bottom = -98.4954
 rect_scale = Vector2( 1.93225, 3.51562 )
 __meta__ = {
 "_edit_group_": true,
