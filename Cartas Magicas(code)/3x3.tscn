@@ -13,7 +13,11 @@
 [ext_resource path="res://imagens/A9.png" type="Texture" id=11]
 
 [node name="3x3" type="Node2D"]
+scale = Vector2( 1.24, 1.21303 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="label" parent="." instance=ExtResource( 1 )]
 position = Vector2( 512.613, 300 )

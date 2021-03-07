@@ -4,9 +4,11 @@
 [ext_resource path="res://menu2.gd" type="Script" id=2]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2( 544.128, 297.976 )
+position = Vector2( 690.169, 364.647 )
+scale = Vector2( 1.33525, 1.2054 )
 script = ExtResource( 2 )
 __meta__ = {
+"_edit_group_": true,
 "_edit_vertical_guides_": [ 117.43 ]
 }
 

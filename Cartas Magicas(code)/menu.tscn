@@ -5,7 +5,11 @@
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 110.568, -0.963261 )
+scale = Vector2( 1.2948, 1.232 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="labol" parent="." instance=ExtResource( 1 )]
 position = Vector2( 404.79, 296.556 )
