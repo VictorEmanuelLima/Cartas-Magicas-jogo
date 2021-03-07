@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://label.tscn" type="PackedScene" id=1]
 [ext_resource path="res://menu.gd" type="Script" id=2]
+[ext_resource path="res://imagens/jogo-cartas magicas-label-com-logo.png" type="Texture" id=3]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 110.568, 1.41516 )
@@ -11,6 +12,7 @@ script = ExtResource( 2 )
 [node name="labol" parent="." instance=ExtResource( 1 )]
 position = Vector2( 410.301, 295.591 )
 scale = Vector2( 1.38939, 1.46422 )
+texture = ExtResource( 3 )
 
 [node name="Button2" type="Button" parent="."]
 margin_left = 771.0
