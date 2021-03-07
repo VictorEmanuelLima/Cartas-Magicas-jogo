@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://label.tscn" type="PackedScene" id=1]
 [ext_resource path="res://3x3.gd" type="Script" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://imagens/A1.png" type="Texture" id=9]
 [ext_resource path="res://imagens/A4.png" type="Texture" id=10]
 [ext_resource path="res://imagens/A9.png" type="Texture" id=11]
+[ext_resource path="res://imagens/fundo 3x3.png" type="Texture" id=12]
 
 [node name="3x3" type="Node2D"]
 scale = Vector2( 1.24, 1.21303 )
@@ -20,8 +21,9 @@ __meta__ = {
 }
 
 [node name="label" parent="." instance=ExtResource( 1 )]
-position = Vector2( 512.613, 300 )
-scale = Vector2( 5.14295, -2.04844 )
+position = Vector2( 514.647, 296.503 )
+scale = Vector2( 1.43892, 1.46421 )
+texture = ExtResource( 12 )
 
 [node name="A0" type="Sprite" parent="."]
 position = Vector2( 150, 200 )

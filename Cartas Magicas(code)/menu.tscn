@@ -4,21 +4,30 @@
 [ext_resource path="res://menu.gd" type="Script" id=2]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2( 110.568, -0.963261 )
+position = Vector2( 110.568, 1.41516 )
 scale = Vector2( 1.2948, 1.232 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="labol" parent="." instance=ExtResource( 1 )]
-position = Vector2( 404.79, 296.556 )
+position = Vector2( 410.301, 295.591 )
+scale = Vector2( 1.38939, 1.46422 )
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 771.0
+margin_top = 508.0
+margin_right = 826.0
+margin_bottom = 533.0
+rect_scale = Vector2( 2.23571, 2.59091 )
+text = "QUIT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
-margin_left = 193.937
-margin_top = 132.692
-margin_right = 287.937
-margin_bottom = 211.692
+margin_left = 278.723
+margin_top = 249.529
+margin_right = 340.723
+margin_bottom = 317.529
 rect_scale = Vector2( 4.30192, 4.27838 )
 __meta__ = {
 "_edit_group_": true,
@@ -26,26 +35,14 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
-margin_right = 94.0
-margin_bottom = 79.0
-
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
-margin_right = 94.0
-margin_bottom = 31.0
-custom_colors/font_color = Color( 0.996078, 0, 0, 1 )
-text = "Cartas Mágicas
-"
+margin_left = 6.0
+margin_top = 24.0
+margin_right = 56.0
+margin_bottom = 44.0
 
 [node name="Button" type="Button" parent="CenterContainer/VBoxContainer"]
-margin_top = 35.0
-margin_right = 94.0
-margin_bottom = 55.0
+margin_right = 50.0
+margin_bottom = 20.0
 text = "START"
-
-[node name="Button2" type="Button" parent="CenterContainer/VBoxContainer"]
-margin_top = 59.0
-margin_right = 94.0
-margin_bottom = 79.0
-text = "QUIT"
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Button" to="." method="_on_Button_pressed"]
-[connection signal="pressed" from="CenterContainer/VBoxContainer/Button2" to="." method="_on_Button2_pressed"]
