@@ -5,6 +5,11 @@ func clone(lista):
 		clone.append(objeto)
 	return clone
 onready var lbl = $lbl1
+onready var lbl2 = $lbl2
+onready var mago = $mago
+onready var btn = $Button
+onready var btn2 = $Button2
+onready var btn3 = $Button3
 onready var A = [[$A0, $A3, $A6 ],
 		 [$A1, $A4, $A7],
 		 [$A2, $A5, $A8]]
@@ -51,8 +56,16 @@ func _on_Button_pressed():
 					
 			for j in range(len(A)):
 				for i in range(len(A[0])):
-					A[j][i].texture = load(res)
-			lbl.text = "Sua carta escolhida"
+					A[j][i].texture = load("none")
+			A[1][1].texture= load(res)
+			A[1][1].scale.x = 2
+			A[1][1].scale.y = 2
+			lbl.visible = false
+			lbl2.visible = true
+			mago.visible = true
+			btn.visible = false
+			btn2.visible = false
+			btn3.visible = false
 		C = clone(B.duplicate())
 		print(B)
 		print(C)
@@ -77,8 +90,16 @@ func _on_Button2_pressed():
 					
 			for j in range(len(A)):
 				for i in range(len(A[0])):
-					A[j][i].texture = load(res)
-				lbl.text = "Sua carta escolhida"
+					A[j][i].texture = load("none")
+			A[1][1].texture= load(res)
+			A[1][1].scale.x = 2
+			A[1][1].scale.y = 2
+			lbl.visible = false
+			lbl2.visible = true
+			mago.visible = true
+			btn.visible = false
+			btn2.visible = false
+			btn3.visible = false
 		C = clone(B.duplicate())
 		D+=1
 		coluna = 1
@@ -102,8 +123,16 @@ func _on_Button3_pressed():
 					
 			for j in range(len(A)):
 				for i in range(len(A[0])):
-					A[j][i].texture = load(res)
-			lbl.text = "Sua carta escolhida"
+					A[j][i].texture = load("none")
+			A[1][1].texture= load(res)
+			A[1][1].scale.x = 2
+			A[1][1].scale.y = 2
+			lbl.visible = false
+			lbl2.visible = true
+			mago.visible = true
+			btn.visible = false
+			btn2.visible = false
+			btn3.visible = false
 		C = clone(B.duplicate())
 		print(B)
 		D+=1
@@ -112,3 +141,7 @@ func _on_Button3_pressed():
 
 func _on_Button4_pressed():
 	get_tree().change_scene("res://menu2.tscn")
+
+
+func _on_Button5_pressed():
+	get_tree().change_scene("res://3x3.tscn")
