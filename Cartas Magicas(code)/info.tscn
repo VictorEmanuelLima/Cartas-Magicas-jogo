@@ -37,7 +37,7 @@ rect_scale = Vector2( 2.70024, 2.8 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Programando o cosmo 
 é uma página  no Instagram
-destinada a contudos
+destinada a conteudos
 de programação e 
 divulgação cientifica."
 __meta__ = {
