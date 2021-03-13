@@ -22,3 +22,7 @@ func _on_Button5_pressed():
 
 func _on_Button_pressed():
 	get_tree().change_scene("res://3x3.tscn")
+
+
+func _on_Button2_pressed():
+	get_tree().change_scene("res://info.tscn")

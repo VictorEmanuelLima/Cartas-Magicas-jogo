@@ -25,6 +25,17 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Button3" type="Button" parent="."]
+margin_left = 771.0
+margin_top = 426.831
+margin_right = 826.0
+margin_bottom = 451.831
+rect_scale = Vector2( 2.23571, 2.59091 )
+text = "Info"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="CenterContainer" type="CenterContainer" parent="."]
 margin_left = 278.723
 margin_top = 249.529
@@ -47,4 +58,5 @@ margin_right = 50.0
 margin_bottom = 20.0
 text = "START"
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Button" to="." method="_on_Button_pressed"]
